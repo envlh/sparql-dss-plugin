@@ -1,0 +1,13 @@
+{
+    "id" : "sparql-dss-plugin",
+    "version" : "1.0",
+    "meta" : {
+        "label" : "Plugin SPARQL",
+        "description" : "Retrieves data from SPARQL endpoints.",
+        "author" : "Envel Le Hir",
+        "icon" : "icon-table",
+        "licenseInfo" : "AGPLv3",
+        "url" : "https://github.com/envlh/sparql-dss-plugin",
+        "tags" : ["SPARQL", "API", "Connector"]
+    }
+}

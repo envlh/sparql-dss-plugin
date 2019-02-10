@@ -1,0 +1,25 @@
+{
+    "meta" : {
+        "label" : "SPARQL",
+        "description" : "Dataset for SPARQL results.",
+        "icon" : "icon-table"
+    },
+    "readable" : true,
+    "writable" : false,
+    "params": [
+        {
+            "name": "sparql_endpoint_url",
+            "label" : "SPARQL endpoint URL",
+            "type": "STRING",
+            "description":"URL of the SPARQL endpoint to query.",
+            "mandatory" : true
+        },
+        {
+            "name": "sparql_query",
+            "label" : "SPARQL query",
+            "type": "TEXTAREA",
+            "description":"SELECT query to be executed.",
+            "mandatory" : true
+        }
+    ]
+}
